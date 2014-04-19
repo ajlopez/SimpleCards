@@ -31,3 +31,22 @@ exports['get keys'] = function (test) {
     test.equal(keys[1], 'name');
     test.equal(keys[2], 'title');
 };
+
+exports['set and get value'] = function (test) {
+    var card = sc.card();
+    
+    test.ok(card);
+    
+    test.strictEqual(card.get('age'), null);
+    
+    card.set('age', 800);
+    
+    test.strictEqual(card.get('age'), 800);
+    
+    var keys = card.keys();    
+    
+    test.ok(keys);
+    test.ok(Array.isArray(keys));
+    test.equal(keys.length, 1);
+    test.equal(keys[0], 'age');
+};
