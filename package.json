@@ -1,0 +1,17 @@
+{ "name": "simplecards"
+, "description": "Simple cards and decks, to be rendered in web pages and mobile applications. WIP."
+, "keywords": [ "node", "browser", "card", "items", "deck" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/SimpleCards.git" }
+, "main": "./lib/simplecards.js"
+, "engines": { "node": ">= 0.6.0 && < 0.11.0" }
+, "scripts": {
+    "test": "simpleunit test"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+    "simpleunit": "0.0.4"
+  }
+}
