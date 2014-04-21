@@ -33,6 +33,9 @@ TBD
 MIT
 
 ## References
+
+- [Framework7](http://www.idangero.us/framework7)
+
 ## Contribution
 
 Feel free to [file issues](https://github.com/ajlopez/SimpleCards) and submit
